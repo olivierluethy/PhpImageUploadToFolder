@@ -1,0 +1,4 @@
+This code first checks if the form has been submitted by checking if the submit button has been pressed. Then it stores the information of the uploaded image in the $_FILES array.
+
+Next, the code checks the extension of the uploaded file to make sure it's an allowed type (e.g. jpg, jpeg, png, or gif). If it is, the code checks for any errors during the upload and checks the file size. 
+If all is well, the code creates a unique file name and moves the uploaded file to the uploads folder using the move_uploaded_file function.
